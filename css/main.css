@@ -38,5 +38,21 @@ nav {
 }
 
 footer {
-    height: 2em;
+    height: 6em;
+    background-color: black;
 }
+
+footer button {
+    position: relative;
+    top: 2vh;
+    height: 3em;
+    width: 15vw;
+    border-radius: 0.5em;
+    font-size: x-large;
+    position: relative;
+    left: 42.5vw;
+    border: 0.25em solid white;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
