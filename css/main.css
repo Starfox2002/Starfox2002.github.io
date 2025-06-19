@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1em;
+    width: 33%;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 60%;
+    height: 100%;
+    padding: 0.23em;
+}
+nav a:hover {
+    color: darkblue;
+    background-color: beige;
+}
+nav {
+    width: 100%;
+    height: 2.6em;
+    background-color: rgb(79, 208, 79);
+    margin: 0;
+}
+.top {
+    height: 100vh;
+    background-image: url("../images/stars.jpg");
+    animation: shift 40s linear infinite;
+}
+@keyframes shift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+.top h1 {
+    text-align: center;
+    position: relative;
+    top: 40vh; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    font-size: xx-large;
+}
+
+footer {
+    height: 6em;
+    background-color: rgb(26, 26, 26);
+}
+
+footer button {
+    position: relative;
+    top: 2vh;
+    height: 3em;
+    width: 15vw;
+    border-radius: 0.5em;
+    font-size: x-large;
+    position: relative;
+    left: 42.5vw;
+    border: 0.25em solid white;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
