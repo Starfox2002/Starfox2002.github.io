@@ -1,0 +1,26 @@
+#biography-section {
+    height: 70vh;
+}
+#biography-section h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#biography-section img {
+    float: left;
+    width: 30vw;
+    height: 70vh;
+    position: relative;
+    bottom: 5vh;
+    left: 5vh
+}
+#bio {
+    float: right;
+    width: 50vw;
+    text-align: justify;
+    font-size: x-large;
+    margin-right: 1em;
+}
+footer {
+    clear: both;
+}
