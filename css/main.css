@@ -26,7 +26,16 @@ nav {
 }
 .top {
     height: 100vh;
-    background-color: black;
+    background-image: url("../images/stars.jpg");
+    animation: shift 40s linear infinite;
+}
+@keyframes shift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
 }
 .top h1 {
     text-align: center;
@@ -35,11 +44,12 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin: 0;
+    font-size: xx-large;
 }
 
 footer {
     height: 6em;
-    background-color: black;
+    background-color: rgb(26, 26, 26);
 }
 
 footer button {
