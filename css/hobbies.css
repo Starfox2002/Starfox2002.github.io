@@ -1,6 +1,7 @@
 #places img {
     width: 33%;
     margin-left: 20vw;
+    margin-bottom: 1em;
 }
 h2 {
     text-align: center;
@@ -11,6 +12,20 @@ h2 {
 }
 #places p {
     float: right;
+    width: 30vh;
+    margin-right: 4em;
+    font-size: large;
+}
+#Language {
+    border-bottom: 5px solid black;
+}
+#Language img, #Language div {
+    width: 40vw;
+}
+#Language div{
+    display: inline-block;
+    margin-right: 4em;
+    margin-left: 4em;
 }
 
 #hobbies img {
