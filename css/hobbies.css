@@ -1,0 +1,28 @@
+#places img {
+    width: 33%;
+    margin-left: 20vw;
+}
+h2 {
+    text-align: center;
+}
+#places div {
+    margin-bottom: 4em;
+    border-bottom: 4px solid black;
+}
+#places p {
+    float: right;
+}
+
+#hobbies img {
+    width: 30vw;
+    height: 30vh;
+}
+#hobbies {
+    height: 70vh;
+    text-align: center;
+}
+
+#hobbies div {
+    display: inline-block;
+    width: 33%;
+}
