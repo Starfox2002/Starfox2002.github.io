@@ -1,0 +1,21 @@
+main {
+    height: 80vh;
+    text-align: center;
+    background-image: url(../images/contact.png);
+    background-repeat: repeat-x;
+    color:rgb(29, 240, 50);
+}
+
+main div {
+    background-color: rgba(0, 0, 0, 0.662);
+    height: 100%;
+}
+
+main div * {
+    margin-top: 5em;
+}
+
+h1 {
+    position: relative;
+    top: 1em;
+}
